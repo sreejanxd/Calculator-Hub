@@ -97,10 +97,7 @@ const Calculator = () => {
 
   return (
     <Container maxWidth="md">
-      {/* Main Heading */}
-      <Typography variant="h4" textAlign="center" sx={{ fontWeight: "bold", mt: 3, mb: 2 }}>
-        Standard Calculator
-      </Typography>
+      
 
       <Grid container spacing={3}>
         {/* Calculator Section */}
