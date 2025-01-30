@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import NavBar from "./components/NavBar";
 import Calculator from "./components/Calculator";
 import AgeCalculator from "./components/AgeCalculator";
-import UnitConverter from "./components/UnitConverter";
 import LoanCalculator from "./components/FinanceAndBusinessCalculators/LoanCalculator";
 import EMICalculator from "./components/FinanceAndBusinessCalculators/EMICalculator";
 import TaxCalculator from "./components/FinanceAndBusinessCalculators/TaxCalculator";
@@ -19,7 +18,7 @@ import TimeConverter from "./components/Conversion/convertTime";
 import VolumeConverter from "./components/Conversion/VolumeConverter";
 import EnergyConverter from "./components/Conversion/EnergyConverter";
 import AreaConverter from "./components/Conversion/AreaConverter";
-
+import "./App.css";
 function App() {
   const [selectedTool, setSelectedTool] = useState("calculator");
 
