@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <Box sx={{ textAlign: "center", py: 2, bgcolor: "#f5f5f5", mt: 3 }}>
       <Typography variant="body2">
-        © {currentYear} Calculator-Hub App. All Rights Reserved.
+        © {currentYear} Made by Oyysreejan.
       </Typography>
     </Box>
   );
